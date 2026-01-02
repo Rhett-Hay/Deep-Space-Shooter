@@ -56,5 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Deep Space Shooter.sln"
+    "dotnet.defaultSolution": "Deep Space Shooter.sln",
+    "dotnet.preferCSharpExtension": true
 }
