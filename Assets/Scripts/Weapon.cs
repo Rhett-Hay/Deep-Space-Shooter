@@ -9,7 +9,7 @@ public class Weapon : MonoBehaviour
     [SerializeField] GameObject _hitVFXPrefab;
     [SerializeField] Animator _animator;
     [SerializeField] ParticleSystem _muzzleFlash;
-    [SerializeField] int _damageAmount = 1;
+    [SerializeField] WeaponSO _weaponSO;
 
     StarterAssetsInputs _starterAssetsInputs;
 
@@ -44,7 +44,7 @@ public class Weapon : MonoBehaviour
             Debug.Log(objectName);
 
             EnemyHealth enemyHealth = hit.collider.GetComponent<EnemyHealth>();
-            enemyHealth?.TakeDamage(_damageAmount);
+            enemyHealth?.TakeDamage(_weaponSO.Damage);
         }
     }
 }
