@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5382fb52e54e56b41a9f0a6382ce2295, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _muzzleFlash: {fileID: 0}
+  _muzzleFlash: {fileID: 2238783863809105705}
 --- !u!1 &6032059479717869572
 GameObject:
   m_ObjectHideFlags: 0
@@ -143,6 +143,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7c50d7ece7eb2c4d902b79013767af8, type: 3}
+--- !u!198 &2238783863809105705 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 2068670452589048973, guid: c7c50d7ece7eb2c4d902b79013767af8, type: 3}
+  m_PrefabInstance: {fileID: 262518026033523620}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4063807523568367373 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4305772925250133161, guid: c7c50d7ece7eb2c4d902b79013767af8, type: 3}
